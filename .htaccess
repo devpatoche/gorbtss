@@ -1,0 +1,7 @@
+ErrorDocument 404 /404.html
+
+RewriteEngine on
+
+RewriteRule ^index$ index.php
+RewriteRule ^me-connecter$ login.php
+RewriteRule ^m-inscrire$ register.php

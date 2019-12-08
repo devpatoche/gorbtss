@@ -11,7 +11,7 @@
     <link rel="icon" href="images/logo2.png">
     <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/starter-template/">
 
-    <title>Site officiel de Gorbtss</title>
+    <title>Connexion - Gorbtss</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -46,8 +46,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Acceuil</a></li>
-            <li><a href="me-connecter">Connexion</a></li>
+            <li><a href="index">Acceuil</a></li>
+            <li class="active"><a href="me-connecter">Connexion</a></li>
             <li><a href="m-inscrire">Demander à m'inscrire</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -57,9 +57,25 @@
     <div class="container">
       <br>
       <div class="jumbotron">
-        <h1>Gorbtss, c'est quoi ?</h1>
-        <p class="lead">Gorbtss est une sorte de réseau social développer par des collègiens, certe ce site est <code>simple</code>, enfin à première vue,  mais il est plus <code>dure</code> que ce que l'on peut croire !<br>
-        Souvenez vous de ne pas vous fiez à la permière apparence car elle est <code>trompeuse</code>.</p>
+        <h1><code>Connexion</code></h1><hr>
+        <form method="post" action="" autocomplete="off">
+          
+          <div class="form-group">
+            
+            <label for="username">Nom d'utlisateur : </label>
+
+            <input type="text" name="username" id="username" class="form-control" placeholder="Patoche35">
+          </div>
+          <div class="form-group">
+            
+            <label for="password">Nom d'utlisateur : </label>
+
+            <input type="password" name="password" id="password" class="form-control" placeholder="*********">
+
+            <button type="submit" class="btn btn-warning">Me connecter</button>
+          </div>
+
+        </form>
       </div>
 
     </div><!-- /.container -->
